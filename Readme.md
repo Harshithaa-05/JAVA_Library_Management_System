@@ -1,9 +1,9 @@
-Library Management System (Java + MySQL)
+**Library Management System (Java + MySQL)**
 Project Description
 
 This project is a Java-based console application integrated with MySQL using JDBC to manage a library system.
 
-It allows users to:
+**It allows users to:**
 
 Register users
 Add and manage books
@@ -13,7 +13,7 @@ Calculate fines for late returns
 
 This is a database-driven system with persistent storage and real-time updates.
 
-Tools & Technologies Used
+**Tools & Technologies Used**
 
 Java
 JDBC (Java Database Connectivity)
@@ -35,7 +35,7 @@ Search books by title or author
 Display all books with availability status
 Persistent data storage using MySQL
 
- Key Functionalities
+**Key Functionalities**
 Books can be issued for 7 days
 Late return fine is ₹5 per day
 Tracks which user has borrowed a book
@@ -43,7 +43,7 @@ Prevents issuing unavailable books
 Stores issue date and due date in database
 Updates book status automatically on return
 
- Database Setup
+**Database Setup**
  
 1. Create Database
 CREATE DATABASE library_db;
@@ -66,7 +66,7 @@ CREATE TABLE books (
     due_date DATE
 );
 
-Database Connection
+**Database Connection**
 
 Create a file DBConnection.java:
 
@@ -82,7 +82,7 @@ public class DBConnection {
     }
 }
 
- How to Run
+**How to Run**
  
 Open your IDE (Eclipse / IntelliJ / VS Code)
 Add all Java files:
@@ -91,11 +91,14 @@ Library.java
 Book.java
 User.java
 DBConnection.java
+
 Compile the program:
 javac *.java
+
 Run the program:
 java Main
-📋 Menu Options
+
+**Menu Options**
 Add Book
 Show Books
 Register User
@@ -106,7 +109,7 @@ Search by Title
 Search by Author
 Exit
 
- Screenshots
+**Screenshots**
 
 Add screenshots inside a screenshots folder and display like this:
 
@@ -117,13 +120,13 @@ Add screenshots inside a screenshots folder and display like this:
 ![Register User](screenshots/register user.png)
 ![Search](screenshots/search.png)
 
- Future Improvements
+**Future Improvements**
 Add GUI using Java Swing / JavaFX
 Add login authentication system
 Track borrowing history
 Generate reports
 Convert into web app (Spring Boot + React)
 
- Author
+**Author**
 
 Harshitha

@@ -53,8 +53,8 @@ USE library_db;
 CREATE TABLE users (
     user_id INT PRIMARY KEY,
     name VARCHAR(50)
-
 );
+
 3. Create Books Table
 CREATE TABLE books (
     id INT PRIMARY KEY,

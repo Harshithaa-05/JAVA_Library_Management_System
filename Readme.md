@@ -1,4 +1,4 @@
-📚 Library Management System (Java Console Project)
+ Library Management System (Java Console Project)
 
 Project Description
 
@@ -6,14 +6,16 @@ This project is a Java-based console application integrated with MySQL using JDB
 It allows users to register, add books, issue and return books, and search for books.
 The system also calculates fines for late returns, making it a complete basic database-driven library management solution.
 
-🛠️ Tools Used
+Tools Used
+
 Java
 JDBC (Java Database Connectivity)
 MySQL Database
 Java Time API (LocalDate, ChronoUnit)
 
 
-📦 Project Components
+Project Components
+
 Library Management Module
 Book Management (Add, View, Search)
 User Management (Register, View)
@@ -22,7 +24,8 @@ Fine Calculation System
 Database Connectivity Module
 
 
-🚀 Features
+Features
+
 Add and manage books (stored in database)
 Register and manage users
 Issue books with due date tracking
@@ -31,8 +34,7 @@ Search books by title or author
 Display all books with availability status
 Persistent data storage using MySQL
 
-
-🔑 Key Functionalities
+Key Functionalities
 Books can be issued for 7 days
 Late return fine is ₹5 per day
 Tracks which user has borrowed a book
@@ -41,7 +43,7 @@ Stores issue date and due date in database
 Updates book status automatically on return
 
 
-🗄️ Database Setup
+Database Setup
 1. Create Database
 CREATE DATABASE library_db;
 USE library_db;
@@ -64,8 +66,7 @@ CREATE TABLE books (
     due_date DATE
 );
 
-
-🔌 Database Connection
+ Database Connection
 
 Create a file DBConnection.java:
 
@@ -81,7 +82,8 @@ public class DBConnection {
     }
 }
 
-▶️ How to Run
+ How to Run
+ 
 Open your IDE (Eclipse / IntelliJ / VS Code)
 Add all Java files:
 Main.java
@@ -99,7 +101,8 @@ Run the program:
 java Main
 
 
-📋 Menu Options
+ Menu Options
+ 
 Add Book
 Show Books
 Register User
@@ -111,7 +114,7 @@ Search by Author
 Exit
 
 
-🖼️ Screenshots
+ Screenshots
 
 You can display screenshots in README like this:
 
@@ -122,14 +125,14 @@ You can display screenshots in README like this:
 ![Search by title,Search by author](screenshots/search by title,search by author.png)
 
 
-💡 Future Improvements
+Future Improvements
+
 Add GUI using Java Swing or JavaFX
 Add login authentication system
 Track borrowing history
 Generate reports
 Deploy as a web application (Spring Boot + React)
 
-
-👩‍💻 Author
+ Author
 
 Harshitha

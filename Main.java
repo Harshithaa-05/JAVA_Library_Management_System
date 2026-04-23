@@ -35,7 +35,8 @@ public class Main {
 
                     System.out.print("Enter Author: ");
                     String author = sc.next();  // single word
-
+                    // Book b = new Book(id, title, author);
+                    // lib.addBook(b); 
                     lib.addBook(new Book(id, title, author));
                     break;
 
